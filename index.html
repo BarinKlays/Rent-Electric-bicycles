@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>Название</title>
+	<!-- =================== META =================== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <link rel="shortcut icon" href="assets/img/favicon.png"> -->
+	<!-- =================== STYLE =================== -->
+	<link rel="stylesheet" href="assets/css/slick.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="home" class="inner-scroll">
+	<!-- ================= HEADER ================= -->
+	<header class="header">
+		<a href="#" class="nav-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<div class="header-menu">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="" alt="logo"></a>
+				<nav class="nav-menu">
+					<ul class="nav-list">
+						<li class="dropdown">
+							<a href="#">Главная </a>
+						</li>
+						<li><a href="services.html">Сервис</a></li>
+						<li><a href="shop.html">аренда</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- =============== HEADER END =============== -->
+
+
+	<!-- =============== main-slider =============== -->
+	<section class="section-slide">
+		<div class="wrap-slick1 rs1-slick1">
+			<div class="slick1">
+				<!-- {% for slide in sliders %} -->
+					<div class="item-slick1" style="background-image: url('assets/img/slider.png'); height: 500px; background-repeat: no-repeat; background-size: cover; ">
+						<div class="container h-full" style="padding-top: 150px;">
+							<div class="flex-col-l-m h-full p-t-100 p-b-30">
+								<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0"  >
+									<span class="ltext-202 cl0 respon2" >
+										Красивый слоган
+									</span>
+								</div>
+	
+								<div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800" style="margin-top: 25px;">
+									<h2 class="ltext-104 cl0 p-t-19 p-b-43 respon1">
+										Главный слоган
+									</h2>
+								</div>
+	
+	
+									<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600" style="margin-top: 40px;">
+										<a href="{% url 'productview' %}" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="    background-color: white; padding: 20px; border-radius: 50px;">
+											Делайте покупки прямо сейчас
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+				<!-- {% endfor %} -->
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- ============= main-slider end ============= -->
+
+	<!--============== S-CATEGORY-BICYKLE ==============-->
+	<!-- <section class="s-category-bicycle">
+		<div class="container">
+			<h4 style="text-align: center;">Полезные карточки</h4>
+			<div class="slider-categ-bicycle">
+				<div class="slide-categ-bicycle">
+					<div class="categ-bicycle-item">
+						<img src="assets/img/categ-2.png" alt="category">
+						<div class="categ-bicycle-info">
+							<h4 class="title">mountain <br>& road bikes</h4>
+							<a href="shop.html" class="btn"><span>посмотреть больше</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-categ-bicycle">
+					<div class="categ-bicycle-item">
+						<img src="assets/img/categ-3.png" alt="category">
+						<div class="categ-bicycle-info">
+							<h4 class="title">Расходники</h4>
+							<a href="shop.html" class="btn"><span>посмотреть больше</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-categ-bicycle">
+					<div class="categ-bicycle-item">
+						<img src="assets/img/categ-1.png" alt="category">
+						<div class="categ-bicycle-info">
+							<h4 class="title">аксессуары <br>& одежда</h4>
+							<a href="shop.html" class="btn"><span>посмотреть больше</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-categ-bicycle">
+					<div class="categ-bicycle-item">
+						<img src="assets/img/categ-3.png" alt="category">
+						<div class="categ-bicycle-info">
+							<h4 class="title">Электро-<br>велосипеды</h4>
+							<a href="shop.html" class="btn"><span>посмотреть больше</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!--============ S-CATEGORY-BICYKLE END ============-->
+
+	<!--=============== S-OUR-ADVANTAGES ===============-->
+	<section class="s-our-advantages" style="background-image: url(assets/img/bg-advantages.jpg);">
+		<span class="mask"></span>
+		<div class="container">
+			<h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+			<div class="our-advantages-wrap">
+				<div class="our-advantages-item">
+					<img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/advantages-2.svg" alt="icon">
+					<h5>Надёжное <br>обслуживание</h5>
+				</div>
+				<div class="our-advantages-item">
+					<img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/advantages-3.svg" alt="icon">
+					<h5>аренда электровелосипеда <br>за доступные деньги</h5>
+				</div>
+				<div class="our-advantages-item">
+					<img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/advantages-4.svg" alt="icon">
+					<h5>Возможна <br>Доставка</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--============= S-OUR-ADVANTAGES END =============-->
+
+	<!--================== S-PRODUCTS ==================-->
+	<section class="s-products">
+		<div class="container">
+			<div class="tab-wrap">
+				<div class="products-title-cover">
+					<h2 class="title">Наши продукты</h2>
+					<ul class="tab-nav product-tabs">
+						<li class="item" rel="tab1"><span>все</span></li>
+
+					</ul>
+				</div>
+				<div class="tabs-content">
+					<div class="tab tab1">
+						<div class="row product-cover">
+							<div class="col-sm-6 col-lg-3">
+								<div class="product-item">
+									<a href="single-shop.html" class="product-img"><img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/prod-1.png" alt="product"></a>
+									<div class="product-item-cover">
+										<div class="price-cover">
+											<div class="new-price">15.000</div>
+										</div>
+										<h6 class="prod-title"><a href="single-shop.html">Название  <br>Электровелосипед</a></h6>
+										<a href="single-shop.html" class="btn"><span>Арендовать сейчас</span></a>
+									</div>
+									<div class="prod-info">
+										<ul class="prod-list">
+											краткое описание
+											<!-- <li>Frame Size: <span>17</span></li>
+											<li>Class: <span>City</span></li>
+											<li>Number of speeds: <span>7</span></li>
+											<li>Type: <span>Rigid</span></li>
+											<li>Country registration: <span>USA</span></li> -->
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3">
+								<div class="product-item">
+									<a href="single-shop.html" class="product-img"><img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/prod-1.png" alt="product"></a>
+									<div class="product-item-cover">
+										<div class="price-cover">
+											<div class="new-price">15.000</div>
+										</div>
+										<h6 class="prod-title"><a href="single-shop.html">Название  <br>Электровелосипед</a></h6>
+										<a href="single-shop.html" class="btn"><span>Арендовать сейчас</span></a>
+									</div>
+									<div class="prod-info">
+										<ul class="prod-list">
+											краткое описание
+											<!-- <li>Frame Size: <span>17</span></li>
+											<li>Class: <span>City</span></li>
+											<li>Number of speeds: <span>7</span></li>
+											<li>Type: <span>Rigid</span></li>
+											<li>Country registration: <span>USA</span></li> -->
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3">
+								<div class="product-item">
+									<a href="single-shop.html" class="product-img"><img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/prod-1.png" alt="product"></a>
+									<div class="product-item-cover">
+										<div class="price-cover">
+											<div class="new-price">15.000</div>
+										</div>
+										<h6 class="prod-title"><a href="single-shop.html">Название  <br>Электровелосипед</a></h6>
+										<a href="single-shop.html" class="btn"><span>Арендовать сейчас</span></a>
+									</div>
+									<div class="prod-info">
+										<ul class="prod-list">
+											краткое описание
+											<!-- <li>Frame Size: <span>17</span></li>
+											<li>Class: <span>City</span></li>
+											<li>Number of speeds: <span>7</span></li>
+											<li>Type: <span>Rigid</span></li>
+											<li>Country registration: <span>USA</span></li> -->
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ S-PRODUCTS END ================-->
+
+
+	<!--================== S-TOP-SALE ==================-->
+	<section class="s-top-sale">
+		<div class="container">
+			<h2 class="title">популярные элетровелосипеды</h2>
+			<div class="row product-cover">
+				<div class="col-sm-6 col-lg-3">
+					<div class="product-item">
+						<a href="single-shop.html" class="product-img"><img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/prod-1.png" alt="product"></a>
+						<div class="product-item-cover">
+							<div class="price-cover">
+								<div class="new-price">15.000</div>
+							</div>
+							<h6 class="prod-title"><a href="single-shop.html">Название  <br>Электровелосипед</a></h6>
+							<a href="single-shop.html" class="btn"><span>Арендовать сейчас</span></a>
+						</div>
+						<div class="prod-info">
+							<ul class="prod-list">
+								краткое описание
+								<!-- <li>Frame Size: <span>17</span></li>
+								<li>Class: <span>City</span></li>
+								<li>Number of speeds: <span>7</span></li>
+								<li>Type: <span>Rigid</span></li>
+								<li>Country registration: <span>USA</span></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-3">
+					<div class="product-item">
+						<a href="single-shop.html" class="product-img"><img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/prod-1.png" alt="product"></a>
+						<div class="product-item-cover">
+							<div class="price-cover">
+								<div class="new-price">15.000</div>
+							</div>
+							<h6 class="prod-title"><a href="single-shop.html">Название  <br>Электровелосипед</a></h6>
+							<a href="single-shop.html" class="btn"><span>Арендовать сейчас</span></a>
+						</div>
+						<div class="prod-info">
+							<ul class="prod-list">
+								краткое описание
+								<!-- <li>Frame Size: <span>17</span></li>
+								<li>Class: <span>City</span></li>
+								<li>Number of speeds: <span>7</span></li>
+								<li>Type: <span>Rigid</span></li>
+								<li>Country registration: <span>USA</span></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-3">
+					<div class="product-item">
+						<a href="single-shop.html" class="product-img"><img class="lazy" src="assets/img/placeholder-all.png" data-src="assets/img/prod-1.png" alt="product"></a>
+						<div class="product-item-cover">
+							<div class="price-cover">
+								<div class="new-price">15.000</div>
+							</div>
+							<h6 class="prod-title"><a href="single-shop.html">Название  <br>Электровелосипед</a></h6>
+							<a href="single-shop.html" class="btn"><span>Арендовать сейчас</span></a>
+						</div>
+						<div class="prod-info">
+							<ul class="prod-list">
+								краткое описание
+								<!-- <li>Frame Size: <span>17</span></li>
+								<li>Class: <span>City</span></li>
+								<li>Number of speeds: <span>7</span></li>
+								<li>Type: <span>Rigid</span></li>
+								<li>Country registration: <span>USA</span></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ S-TOP-SALE END ================-->
+
+	<!--================== S-FEEDBACK ==================-->
+	<section class="s-feedback" style="background-image: url(assets/img/bg-feedback.jpg);">
+		<!-- <span class="effwct-bg-feedback" style="background-image: url(assets/img/effect-bg-feedback.svg);"></span> -->
+		<span class="mask"></span>
+		<div class="container">
+			<h2 class="title">Отзывы</h2>
+			<div class="feedback-slider">
+				<div class="feedback-slide">
+					<div class="feedback-item">
+						<div class="feedback-content">
+							<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoinc ididunt ut magna aliqua dolor sit amet, consectetur adipiscing elit magna”</p>
+						</div>
+						<div class="feedback-item-top">
+							<img src="assets/img/feedback-photo-1.png" alt="photo">
+							<div class="feedback-title">
+								<h5 class="title"><span>ФИО</span></h5>
+								<ul class="rating">
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-not-bg"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="feedback-slide">
+					<div class="feedback-item">
+						<div class="feedback-content">
+							<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoinc ididunt ut magna aliqua dolor sit amet, consectetur adipiscing elit magna”</p>
+						</div>
+						<div class="feedback-item-top">
+							<img src="assets/img/feedback-photo-2.png" alt="photo">
+							<div class="feedback-title">
+								<h5 class="title"><span>ФИО</span></h5>
+								<ul class="rating">
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-not-bg"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="feedback-slide">
+					<div class="feedback-item">
+						<div class="feedback-content">
+							<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoinc ididunt ut magna aliqua dolor sit amet, consectetur adipiscing elit magna”</p>
+						</div>
+						<div class="feedback-item-top">
+							<img src="assets/img/feedback-photo-3.png" alt="photo">
+							<div class="feedback-title">
+								<h5 class="title"><span>ФИО</span></h5>
+								<ul class="rating">
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-not-bg"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="feedback-slide">
+					<div class="feedback-item">
+						<div class="feedback-content">
+							<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempoinc ididunt ut magna aliqua dolor sit amet, consectetur adipiscing elit magna”</p>
+						</div>
+						<div class="feedback-item-top">
+							<img src="assets/img/feedback-photo-2.png" alt="photo">
+							<div class="feedback-title">
+								<h5 class="title"><span>ФИО</span></h5>
+								<ul class="rating">
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-bg"><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li class="star-not-bg"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ S-FEEDBACK END ================-->
+
+	<!--==================== FOOTER ====================-->
+	<footer style="padding-bottom: 108px;">
+		<div class="container" style="display: flex; justify-content: center;">
+			<div class="row footer-item-cover">
+				<!-- <div class="footer-subscribe col-md-7 col-lg-8">
+					<h6>subscribe</h6>
+					<p>Subscribe us and you won't miss the new arrivals, as well as discounts and sales.</p>
+					<form class="subscribe-form">
+						<i class="fa fa-at" aria-hidden="true"></i>
+						<input class="inp-form" type="email" name="subscribe" placeholder="E-mail">
+						<button type="submit" class="btn btn-form"><span>send</span></button>
+					</form>
+				</div> -->
+				<div class="footer-item col-md-5 col-lg-4">
+					<h6>Полезная информация</h6>
+					<ul class="footer-list">
+						<li><a href="shop.html">Помощь</a></li>
+						<li><a href="shop.html">Контакты</a></li>
+						<li><a href="shop.html">Аренда</a></li>
+						<li><a href="shop.html">Возрат элетровелосипеда</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row footer-item-cover">
+				<div class="footer-touch col-md-7 col-lg-8">
+					<h6>Мы есть так же в соц.сетях</h6>
+					<ul class="footer-soc social-list">
+						<!-- <li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://twitter.com/RovadexStudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li> -->
+						<li><a><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+						<li><a><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+
+					</ul>
+					<div class="footer-autor">Есть вопросы? Пожалуйста напишите нам: <a href="mailto:rovadex@gmail.com">Email@gmail.com</a></div>
+				</div>
+		</div>
+	</footer>
+	<!--================== FOOTER END ==================-->
+
+	<!--===================== TO TOP =====================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a>
+	<!--=================== TO TOP END ===================-->
+	<!--==================== SCRIPT	====================-->
+	<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/jquery.nice-select.js"></script>
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/lazyload.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+</html>
