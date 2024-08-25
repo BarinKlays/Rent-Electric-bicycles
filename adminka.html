@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>Админка</title>
+	<!-- =================== META =================== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <link rel="shortcut icon" href="assets/img/favicon.png"> -->
+	<!-- =================== STYLE =================== -->
+	<link rel="stylesheet" href="assets/css/slick.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body id="home">
+	<!-- =================== HEADER =================== -->
+	<header class="header">
+		<a href="#" class="nav-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<div class="header-menu">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="" alt="logo"></a>
+				<nav class="nav-menu">
+					<ul class="nav-list">
+						<li class="dropdown">
+							<a href="index.html">Главная</a>
+						</li>
+						<li><a href="services.html">Сервис</a></li>
+						<li><a href="shop.html">Аренда</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+                        <li class="active"><a href="adminka.html">Админка</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- ================= HEADER END ================= -->
+	<style>
+        .btn-adminka{
+            padding: 5px;
+            background-color: white;
+            margin-left: 20px;
+        }
+
+        .btn-adminka:hover{
+            background-color: yellow;
+            transition: .35s ease;
+        }
+    </style>
+	<!-- ================ HEADER-TITLE ================ -->
+	<section class="s-products">
+        <div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-3 shop-sidebar">
+					<ul class="widgets wigets-shop">
+						<li class="widget wiget-shop-category">
+							<ul>
+								<li><a>Заявка на аренду</a></li>
+								<li><a>Завяка на починку</a></li>
+								<li><a>заявка на тех осмотр</a></li>
+								<li><p></p></li>
+								<li><p></p></li>
+							</ul>
+						</li>
+				</div>
+                <div class="col-12 col-lg-9 shop-cover">
+					<h2 class="title">Заявки на аренду</h2>
+					<div class="shop-sort-cover">
+						<div class="sort-left">Количество: 0</div>
+						<div class="sort-right">
+							<div class="sort-by">
+								<select class="nice-select">
+									<option selected="selected" disabled="">Сортировать</option>
+									<option>Новые</option>
+									<option>В обработке</option>
+                                    <option>Сданы</option>
+								</select>
+                                <button class="btn-adminka" type="submit">Фильтровать</button>
+							</div>
+
+						</div>
+					</div>
+					<div class="shop-product-cover">
+						<div class="row product-cover block">
+							<div class="">
+								<table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">id</th>
+                                        <th scope="col">Имя</th>
+                                        <th scope="col">Фамилия</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">телефона</th>
+                                        <th scope="col">Электро<br>велосипед</th>
+                                        <th scope="col">Стоимость</th>
+                                        <th scope="col">Статус</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>name</td>
+                                        <td>ferstname</td>
+                                        <td>@email</td>
+                                        <td>+799999999999</td>
+                                        <td>название</td>
+                                        <td>15.000</td>
+                                        <td>сдаём</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>name</td>
+                                        <td>ferstname</td>
+                                        <td>@email</td>
+                                        <td>+799999999999</td>
+                                        <td>название</td>
+                                        <td>15.000</td>
+                                        <td>в обработке</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>name</td>
+                                        <td>ferstname</td>
+                                        <td>@email</td>
+                                        <td>+799999999999</td>
+                                        <td>название</td>
+                                        <td>15.000</td>
+                                        <td>новая</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+									
+							
+						</div>
+						<!-- <div class="pagination-cover">
+							<ul class="pagination">
+								<li class="pagination-item item-prev"><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+								<li class="pagination-item active"><a href="#">1</a></li>
+								<li class="pagination-item"><a href="#">2</a></li>
+								<li class="pagination-item"><a href="#">3</a></li>
+								<li class="pagination-item"><a href="#">4</a></li>
+								<li class="pagination-item"><a href="#">5</a></li>
+								<li class="pagination-item item-next"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+							</ul>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ============== HEADER-TITLE END ============== -->
+
+
+	<!--==================== FOOTER ====================-->
+	<footer style="padding-bottom: 108px;">
+		<div class="container" style="display: flex; justify-content: center;">
+			<div class="row footer-item-cover">
+				<!-- <div class="footer-subscribe col-md-7 col-lg-8">
+					<h6>subscribe</h6>
+					<p>Subscribe us and you won't miss the new arrivals, as well as discounts and sales.</p>
+					<form class="subscribe-form">
+						<i class="fa fa-at" aria-hidden="true"></i>
+						<input class="inp-form" type="email" name="subscribe" placeholder="E-mail">
+						<button type="submit" class="btn btn-form"><span>send</span></button>
+					</form>
+				</div> -->
+				<div class="footer-item col-md-5 col-lg-4">
+					<h6>Полезная информация</h6>
+					<ul class="footer-list">
+						<li><a href="shop.html">Помощь</a></li>
+						<li><a href="shop.html">Контакты</a></li>
+						<li><a href="shop.html">Аренда</a></li>
+						<li><a href="shop.html">Возрат элетровелосипеда</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row footer-item-cover">
+				<div class="footer-touch col-md-7 col-lg-8">
+					<h6>Мы есть так же в соц.сетях</h6>
+					<ul class="footer-soc social-list">
+						<!-- <li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://twitter.com/RovadexStudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li> -->
+						<li><a><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+
+					</ul>
+					<div class="footer-autor">Есть вопросы? Пожалуйста напишите нам: <a href="mailto:rovadex@gmail.com">Email@gmail.com</a></div>
+				</div>
+		</div>
+	</footer>
+	<!--================== FOOTER END ==================-->
+
+	<!--===================== TO TOP =====================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a>
+	<!--=================== TO TOP END ===================-->
+	<!--=================== SCRIPT	===================-->
+	<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
